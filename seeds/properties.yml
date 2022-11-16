@@ -1,0 +1,19 @@
+version: 2
+
+seeds:
+  - name: datamart_seed
+    config:
+      database: QA_COMMON_DB
+      schema: SILVER_METADATA
+      alias: silver_datamart_metadata
+      quote_columns: false
+      column_types: 
+        DATAMART_NAME: VARCHAR(200)
+        DATA_DOMAIN: VARCHAR(200)
+        JOIN_LOGIC: VARCHAR(8000)
+        JOIN_TYPE: VARCHAR(50)
+        PRIMARY_TABLE: BOOLEAN
+        TABLE_ALIAS: VARCHAR(200)
+        TABLE_ID: NUMBER(38,0)
+        TABLE_NAME: VARCHAR(200)
+        TABLE_SCHEMA: VARCHAR(200)
