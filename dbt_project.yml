@@ -2,10 +2,10 @@ name: 'metadata_macros'
 version: '1.0.0'
 config-version: 2
 
-profile: 'metadata_macros'
+profile: 'default'
 
 macro-paths: ["macros"]
-
+model-paths: ["models"]
 target-path: "target"  
 clean-targets:         
   - "target"
