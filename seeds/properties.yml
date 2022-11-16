@@ -5,7 +5,7 @@ seeds:
     config:
       database: QA_COMMON_DB
       schema: SILVER_METADATA
-      alias: silver_datamart_metadata
+      alias: silver_datamart_metadata_test_from_dbt
       quote_columns: false
       column_types: 
         DATAMART_NAME: VARCHAR(200)
