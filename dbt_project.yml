@@ -1,0 +1,13 @@
+name: 'metadata_macros'
+version: '1.0.0'
+config-version: 2
+
+profile: 'metadata_macros'
+
+macro-paths: ["macros"]
+
+target-path: "target"  
+clean-targets:         
+  - "target"
+  - "dbt_packages"
+
