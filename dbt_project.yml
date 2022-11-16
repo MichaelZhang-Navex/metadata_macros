@@ -6,6 +6,7 @@ profile: 'default'
 
 macro-paths: ["macros"]
 model-paths: ["models"]
+
 target-path: "target"  
 clean-targets:         
   - "target"
